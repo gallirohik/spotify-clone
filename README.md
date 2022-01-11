@@ -1,2 +1,2 @@
-# kefyi-store
+# store-front
 online store
