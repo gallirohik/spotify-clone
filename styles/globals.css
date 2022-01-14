@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --primary: #56da9b;
+  --secondary: #a0aec0;
+  --accent: #a0edcb;
+  --background: #fff;
+}

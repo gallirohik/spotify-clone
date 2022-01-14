@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        background: "var(--background)",
+        accent: "var(--accent)",
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [require("tailwind-scrollbar-hide")],
+};
